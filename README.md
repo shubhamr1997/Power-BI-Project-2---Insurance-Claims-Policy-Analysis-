@@ -1,4 +1,4 @@
-# 🛡️ Insurance Analytics & Customer Sentiment — Power BI
+# 🛡️ Insurance Claims Policy & Customer Sentiment Analysis
 
 ## 📌 Project Overview
 
@@ -43,7 +43,8 @@ The main dashboard uses the **InsuranceData** table and provides an overview of 
 - Gender Distribution
 - Policy Type and Claim Status analysis
 
-![Insurance Dashboard](images/dashboard.png)
+<img width="1285" height="723" alt="Screenshot 2026-08-15 055950" src="https://github.com/user-attachments/assets/edbc4e54-9325-4bcd-a205-3b971e284103" />
+
 
 ---
 
@@ -69,7 +70,8 @@ The table includes information such as:
 
 A drill-through filter was also implemented to allow more detailed exploration based on selected policy attributes.
 
-![Table Visual & Drill Through](images/drill-through.png)
+<img width="1252" height="728" alt="Screenshot 2026-08-15 060013" src="https://github.com/user-attachments/assets/2b16aa3b-bfc4-4d64-8419-443499381fd7" />
+
 
 ---
 
@@ -115,7 +117,8 @@ A conditional column was created in Power BI to classify customer feedback into:
 
 These categories were based on the calculated sentiment score.
 
-![Sentiment Analysis](images/sentiment-analysis.png)
+<img width="1265" height="720" alt="Screenshot 2026-08-15 060039" src="https://github.com/user-attachments/assets/c74492c9-d635-47ad-9991-bbfb8e19793e" />
+
 
 ---
 
@@ -207,21 +210,6 @@ Python / Jupyter Notebook
 `Power BI` • `Python` • `Jupyter Notebook` • `Pandas` • `NLTK` • `VADER`
 
 ---
-
-## 📁 Project Structure
-
-```text
-Insurance-Analytics-PowerBI/
-│
-├── README.md
-├── Insurance-Analytics.pbix
-├── sentimentanalysis.ipynb
-└── images/
-    ├── dashboard.png
-    ├── drill-through.png
-    └── sentiment-analysis.png
-```
-
 ---
 
 # ✅ Conclusion
